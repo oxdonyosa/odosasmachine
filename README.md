@@ -1,6 +1,6 @@
 # Odosa's Machine
 
-A live Bitcoin candle analysis tool that connects directly to Binance to scan and rank every 15-minute candle window by consistency score — finding the most predictable directional bias and mirror pair correlations across the trading day.
+A live Bitcoin candle analysis tool that connects directly to Binance to scan and rank every 15-minute candle window by consistency score and finding the most predictable directional bias and mirror pair correlations across the trading day.
 
 ---
 
