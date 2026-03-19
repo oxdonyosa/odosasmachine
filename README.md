@@ -6,9 +6,9 @@ A live Bitcoin candle analysis tool that connects directly to Binance to scan an
 
 ## Live site
 
-**Main tool:** https://oxdonyosa.github.io/odosas-machine
+**Main tool:** https://oxdonyosa.github.io/odosasmachine
 
-**Backtest data export:** https://oxdonyosa.github.io/odosas-machine/backtest.html
+**Backtest data export:** https://oxdonyosa.github.io/odosasmachine/backtest.html
 
 ---
 
@@ -80,4 +80,4 @@ MIT License — see `LICENSE` for details.
 
 ---
 
-Built by [@donyosa](https://twitter.com/donyosa)
+Built by [@don_yosa](https://twitter.com/don_yosa)
