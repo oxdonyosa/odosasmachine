@@ -1,6 +1,14 @@
 # Odosa's Machine
 
-A live Bitcoin candle analysis tool that connects directly to Binance to scan and rank every 15-minute candle window by consistency score and finding the most predictable directional bias and mirror pair correlations across the trading day.
+A live Bitcoin candle analysis tool that connects directly to Binance to scan and rank every 15-minute candle window by consistency score — finding the most predictable directional bias and mirror pair correlations across the trading day.
+
+---
+
+## Live site
+
+**Main tool:** https://oxdonyosa.github.io/odosas-machine
+
+**Backtest data export:** https://oxdonyosa.github.io/odosas-machine/backtest.html
 
 ---
 
@@ -11,6 +19,7 @@ A live Bitcoin candle analysis tool that connects directly to Binance to scan an
 - **Your target window** — Compare your chosen candle against every other window in the day
 - **Mon–Fri or All 7 days** — Toggle weekend candles in or out with one click
 - **Local time equivalent** — Every ET time is converted to your timezone (WAT or any offset) automatically, DST-aware
+- **Backtest export** — Export full candle history to CSV or JSON for deeper analysis
 - **No backend, no login** — Runs entirely in the browser using Binance's public API
 - **Live data** — Pulls fresh candle data every time you run it
 
@@ -18,7 +27,7 @@ A live Bitcoin candle analysis tool that connects directly to Binance to scan an
 
 ## How to use
 
-1. Open `index.html` in any modern browser
+1. Visit https://oxdonyosa.github.io/odosas-machine
 2. Expand **Parameters** and set your symbol, interval, target time, lookback period and timezone
 3. Choose **MON–FRI** or **ALL 7 DAYS** mode
 4. Hit **RUN**
@@ -26,6 +35,8 @@ A live Bitcoin candle analysis tool that connects directly to Binance to scan an
    - **Target Candles** — your specific window's history and off-bias days
    - **Mirror Pairs** — windows that mirror your target's direction
    - **All Windows** — every window ranked by consistency score
+
+For backtest data, visit https://oxdonyosa.github.io/odosas-machine/backtest.html and export your results as CSV or JSON.
 
 ---
 
